@@ -46,4 +46,4 @@ python3 manage.py createsuperuser
 python3 manage.py runserver
 ```
 
-Crack open the Browsable API available at [http://127.0.0.1:8000/api/v1/] 🚀
+Crack open the Browsable API available at [http://127.0.0.1:8000/api/v1/](http://127.0.0.1:8000/api/v1/) 🚀
