@@ -13,6 +13,9 @@ django-allauth = "*"
 coreapi = "*"
 pyyaml = "*"
 django-rest-swagger = "*"
+gunicorn = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
 
 [requires]
 python_version = "3.8"
