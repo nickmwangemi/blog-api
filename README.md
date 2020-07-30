@@ -14,16 +14,11 @@ A blog API with CRUD functionality, built using Django REST Framework.
  $ pipenv shell
 ```
 
-3. Run migrations and setup setup superuser account.
+3. Build the database, setup superuser account and run local development server instance.
 
 ```
  $ python3 manage.py migrate
  $ python3 manage.py createsuperuser
-```
-
-4. Run local development server instance.
-
-```
  $ python3 manage.py runserver
 ```
 
