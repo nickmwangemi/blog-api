@@ -17,6 +17,7 @@ gunicorn = "*"
 dj-database-url = "*"
 psycopg2-binary = "*"
 whitenoise = "*"
+drf-yasg = "*"
 
 [requires]
 python_version = "3.8"
