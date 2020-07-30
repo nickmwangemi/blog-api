@@ -27,21 +27,24 @@ A blog API with CRUD functionality, built using Django REST Framework.
  $ python3 manage.py runserver
 ```
 
-Crack open the Browsable API available at [http://127.0.0.1:8000/api/v1/](http://127.0.0.1:8000/api/v1/) 🚀
+Crack open the Browsable API available at [http://127.0.0.1:8000/api/v1/](http://127.0.0.1:8000/api/v1/)
 
-Also, Swagger UI documentation is available at [http://127.0.0.1:8000/swagger/](http://127.0.0.1:8000/swagger/) 🚀
+Also, Swagger UI documentation is available at [http://127.0.0.1:8000/swagger/](http://127.0.0.1:8000/swagger/)
 
 ## Endpoints
 
-|Endpoint |HTTP Verb|
+| Endpoint                          | HTTP Verb |
+| --------------------------------- | --------- |
+| /                                 | GET       |
+| /:pk/                             | GET       |
+| users/                            | GET       |
+| users/:pk/                        | GET       |
+| /rest-auth/registration           | POST      |
+| /rest-auth/login                  | POST      |
+| /rest-auth/logout                 | GET       |
+| /rest-auth/password/reset         | POST      |
+| /rest-auth/password/reset/confirm | POST      |
 
-|--------------------------------------|---------|
-|/ |GET |
-|/:pk/ |GET |
-|users/ |GET |
-|users/:pk/ |GET |
-|/rest-auth/registration |POST |
-|/rest-auth/login |POST |
-|/rest-auth/logout |GET |
-|/rest-auth/password/reset |POST |
-|/rest-auth/password/reset/confirm |POST |
+#
+
+A live version of this project is available at [https://blog-api-docs.herokuapp.com/swagger/](https://blog-api-docs.herokuapp.com/swagger/). 🚀
