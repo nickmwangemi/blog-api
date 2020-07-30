@@ -16,6 +16,7 @@ django-rest-swagger = "*"
 gunicorn = "*"
 dj-database-url = "*"
 psycopg2-binary = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.8"
